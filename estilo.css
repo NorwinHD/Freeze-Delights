@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagenes/Freeze.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+
+
+.logo {
+    width: 90px;
+}
+
+.nav-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vram;
+    font-weight: bold;
+}
+
+.botones li {
+    display: inline-block;
+    padding-top: 20px;
+
+}
+
+a {
+    color: WHITE;
+    text-decoration: none;
+    margin: 5px;
+}
+
+li :hover {
+    color: burlywood;
+    cursor: inherit;
+}
+
